@@ -1,0 +1,71 @@
+.admin-box{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+/* pie chart */
+.rooms-chart{
+    margin-top:50px;
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #17b434 30deg, 
+        #3dc0fd 0 235deg, 
+        #ffa500 0);
+}
+
+.color-reference{
+}
+
+.used, .free, .renovation{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 6.5rem;
+}
+.used{
+    background: #3dc0fd;
+}
+.free{
+    background: #ffa500;
+}
+.renovation{
+    background: #17b434;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.6rem;    
+}
+
+/* admin right block */
+.admin-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.welcome-admin{
+    font-size: 3.6rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+/* dashboard buttons */
+.admin-btns{
+}

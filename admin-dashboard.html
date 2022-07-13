@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking CSS and JavaScipt -->
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dashboard2.css" />
+    <script defer src="script.js"></script>
+
+    <title>Dashboard: Admin</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          src="images/Sunshine Hostels-logos_white.png"
+          alt="Sunshine Hostels logo"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">About</a></li>
+          <li><a class="main-nav-link" href="#">Rooms</a></li>
+          <li><a class="main-nav-link" href="#">Mess</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-main">
+        <div class="admin-box">
+          <div class="rooms">
+            <div class="rooms-chart"></div>
+            <div class="color-reference grid grid--2-cols margin-bottom-md">
+              <div class="used"></div>
+              <div class="grid-item">Rooms under use</div>
+              <div class="free"></div>
+              <div class="grid-item">Rooms free for allotment</div>
+              <div class="renovation"></div>
+              <div class="grid-item">Rooms under renovation</div>
+            </div>
+          </div>
+
+          <div class="admin-actions">
+            <div class="welcome-admin">
+              <p>Welcome, Admin!</p>
+            </div>
+
+            <div class="admin-btns grid grid--2-cols margin-bottom-md">
+              <div>
+                <a class="dashboard-btn" href="#">Students List</a>
+              </div>
+              <div>
+                <a class="dashboard-btn" href="#">Fee Status</a>
+              </div>
+              <div>
+                <a class="dashboard-btn" href="#">Food Chart</a>
+              </div>
+              <div>
+                <a class="dashboard-btn" href="#">Change Food Menu</a>
+              </div>
+              <div>
+                <a class="dashboard-btn" href="#">Mess Staff</a>
+              </div>
+              <div>
+                <a class="dashboard-btn" href="#">Maintenance Staff</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

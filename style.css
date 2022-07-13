@@ -11,6 +11,11 @@
     padding: 0 4.8rem;
 }
 
+.logo {
+    height: 6rem;
+    /* width: 2.2rem; */
+}
+
 /*****************************/
 /* NAVIGATION */
 /*****************************/
@@ -76,7 +81,7 @@
     padding: 4.8rem 0 9.6rem 0;
 }
 
-.hero, .details{
+.hero, .details, .admin-box{
     max-width: 130rem;
     margin: 0 auto;
     padding: 0 3.2rem;
@@ -90,6 +95,10 @@
     font-size: 2rem;
     line-height: 1.6;
     margin-bottom: 4.8rem;
+}
+
+.hero-img {
+    width: 100%;
 }
 
 /*****************************/

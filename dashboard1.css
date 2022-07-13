@@ -1,0 +1,69 @@
+/* details section */
+.details-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* Student image */
+.student-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Student name */
+.student-name{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Student details table */
+.basic-details-table {
+    width: 800px;
+    margin-top: 50px;
+    font-size: 18px;
+    /* border: 1px solid #343a40; */
+    border-collapse: collapse;
+}
+
+td {
+    /* border: 1px solid #343a40; */
+    padding: 16px 24px;
+    text-align: left;
+    color: #fff;
+}
+
+#r2 td{
+    background-color: #353d4c;
+}
+
+/* dashboard buttons */
+.student-btns{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.dashboard-btn,
+.dashboard-btn:link,
+.dashboard-btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #d77583;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3ms;
+}

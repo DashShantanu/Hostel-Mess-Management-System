@@ -1,0 +1,74 @@
+h1, .instruction {
+    margin: 1em auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 4.8rem;
+    font-weight: 500;
+    letter-spacing: -0.5;
+    margin-bottom: 3.2rem;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+}
+  
+form {
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+}
+  
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+  
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+  
+label {
+    display: block;
+      margin: 0.5rem 0;
+}
+  
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+      width: 100%;
+    min-height: 2em;
+}
+  
+input, textarea, .options {
+    height: 4rem;
+    padding: 0.6rem;
+    font-size: 2rem;
+    background-color: #0a0a23;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.radio-buttons{
+    font-size: 1.6rem;
+}
+  
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+input[type="file"] {
+    padding: 1px 2px;
+}
+  
+a {
+    color: #dfdfe2;
+}

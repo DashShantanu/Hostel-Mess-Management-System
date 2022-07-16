@@ -1,0 +1,30 @@
+.section-about{
+    margin: 3rem 8rem;
+}
+
+.section-features{
+    margin: 6rem 8rem;
+}
+
+.features{
+    border-radius: 11px;
+    width: 75%;
+    background-color: #353d4c;
+    padding: 3rem;
+}
+
+.feature-header, .feature-heading h2{
+    background-color: #353d4c;
+}
+
+.feature-text{
+    background-color: #353d4c;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 1.6rem;
+}
+
+.list, .list span,.list-item, .list-icon{
+    background-color: #353d4c;
+}

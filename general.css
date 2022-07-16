@@ -4,7 +4,7 @@
 - Font size system (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-- Font wights
+- Font weights
 Default: 400
 Medium: 500
 Semi-bold: 600
@@ -109,13 +109,30 @@ Medium: 11px
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 4rem;
 }
 
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #bf6875;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .grid {
@@ -127,8 +144,17 @@ Medium: 11px
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
+}
+.grid--center-v {
+  align-items: center;
 }
 
 .btn,
@@ -178,6 +204,19 @@ Medium: 11px
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #bf6875;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  font-weight: 300;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .dashboard-btn,
 .dashboard-btn:link,
 .dashboard-btn:visited {
@@ -193,4 +232,109 @@ Medium: 11px
     cursor: pointer;
     font-family: inherit;
     transition: all 0.3ms;
+}
+
+/* Lists */
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #bf6875;
+}
+
+/*****************************/
+/* FOOTER */
+/*****************************/
+
+.footer {
+  margin-top: 9.6rem;
+  padding: 12.8rem 0;
+  border-top: 1px solid #ef8292;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+  margin-right: 2.4rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #bf6875;
+}
+
+.address{
+  font-size: 1.6rem;
 }

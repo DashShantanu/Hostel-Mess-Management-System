@@ -125,6 +125,11 @@
     z-index: 10;
 }
 
+.modal button{
+    margin: 2rem 38rem;
+    border-radius: 9px;
+}
+
 .show-modal {
     font-size: 2rem;
     font-weight: 600;

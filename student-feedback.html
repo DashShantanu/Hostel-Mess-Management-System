@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking CSS and JavaScipt -->
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="student-hostel-info.css" />
+
+    <style>
+        .section-main{
+            margin: 6rem auto;
+            width: 50%;
+        }
+
+        input, textarea, .options {
+            height: 4rem;
+            padding: 0.6rem;
+            font-size: 2rem;
+            background-color: #0a0a23;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+
+        input,
+        textarea,
+        select {
+            margin: 2rem;
+            width: 100%;
+            min-height: 2em;
+        }
+
+        textarea{
+            height: 20rem;
+        }
+    </style>
+
+    <script defer src="script.js"></script>
+
+    <title>Dashboard: Student</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="home.html">
+        <img
+          class="logo"
+          src="images/Sunshine Hostels-logos_white.png"
+          alt="Sunshine Hostels logo"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="/about-us.html" target="_blank"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="/hostels.html" target="_blank"
+              >Hostels</a
+            >
+          </li>
+          <li><a class="main-nav-link nav-cta" href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-main">
+        <div class="feedback">
+          <div class="hostel" style="display: flex; flex-direction: column; gap:
+          2.4rem; font-size: 2rem;">
+          <div class="heading-tertiary">Feedback Form</div>
+          
+          <form action="#">
+            <label>
+                <p>How would you rate the hostel infrastructure?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+              
+            <label>
+                <p>How would you rate your room's facilities?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+
+            <label>
+                <p>How would you rate your fellow roommates?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+
+            <label>
+                <p>How would you rate your mess experience?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+
+            <label>
+                <p>How would you rate your laundary service experience?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+
+            <label>
+                <p>How would you rate your safety and security in hostel premises?</p>
+                <select class="options" name="referrer">
+                    <option value="">Select an option</option>
+                    <option value="1">Excellent</option>
+                    <option value="2">Very Good</option>
+                    <option value="3">Good</option>
+                    <option value="4">Average</option>
+                    <option value="5">Needs Improvement</option>
+                </select>
+            </label>
+
+            <label>Share what you feel about your experience in detail!
+                <textarea name="bio" rows="8" cols="30" placeholder="I appreciate the study atmosohere which is very peaceful..."></textarea>
+            </label>
+    
+            <button class="btn btn--form">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

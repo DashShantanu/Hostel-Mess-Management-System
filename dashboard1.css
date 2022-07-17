@@ -1,4 +1,8 @@
 /* details section */
+.details{
+    margin-top: 2rem;
+}
+
 .details-list{
     display: flex;
     flex-direction: column;
